@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+<h1>Indiana Jones</h1>
+<!-- Complete the HTML here -->
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/raiders.jpg">
+        <h3>Raiders of the Lost Ark</h3>
+        <p>Raiders of the Lost Ark[a] is a 1981 American action-adventure film directed by Steven Spielberg and written by Lawrence
+        Kasdan, based on a story by George Lucas and Philip Kaufman. It stars Harrison Ford, Karen Allen, Paul Freeman, Ronald
+        Lacey, John Rhys-Davies, and Denholm Elliott.</p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg">
+        <h3>Temple of Doom</h3>
+        <p>It was released to cinemas in the United States on May 23, 1984.[7] It was nominated for the Academy Award for Best
+        Original Score and won the Academy Award for Best Visual Effects. A sequel, Indiana Jones and the Last Crusade, followed
+        in 1989.</p>
+      </div>
+      <div class="column">
+        <img src="images/crusade.jpg">
+        <h3>The Last Crusade</h3>
+        <p>Lucas and Spielberg had intended to make a trilogy of Indiana Jones films since Lucas had first pitched Raiders of the
+        Lost Ark to Spielberg in 1977.[14] After the mixed critical and public reaction to Indiana Jones and the Temple of Doom,
+        Spielberg decided to complete the trilogy to fulfill his promise to Lucas, with the intent to invoke the film with the
+        spirit and tone of Raiders of the Lost Ark.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

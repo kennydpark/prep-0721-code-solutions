@@ -55,7 +55,7 @@ var getFullNameResult = getFullName('Kenny', 'Park');
 console.log('getFullname Exercise:', getFullNameResult);
 
 function cube(number) {
-  return number * number * number;
+  return number * number * number; // wasn't quite sure about this one either...
 }
 
 console.log('cube Exercise:', cube(5));

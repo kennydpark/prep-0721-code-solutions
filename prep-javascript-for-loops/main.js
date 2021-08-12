@@ -1,9 +1,10 @@
 // create your loops here.
-// var num = '';
+var num = 0;
 
-// for (var i = 0; i < 10; i++) {
-//   console.log(num = i);
-// }
+for (var i = 0; i < 10; i++) {
+  num = i;
+  console.log(num);
+}
 
 // var num = -2;
 

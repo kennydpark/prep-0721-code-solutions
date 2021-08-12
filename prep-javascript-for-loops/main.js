@@ -1,17 +1,17 @@
 // create your loops here.
-var num = 0;
-
-for (var i = 0; i < 10; i++) {
-  num = i;
-  console.log(num);
-}
-
-// var num = -2;
+// var num = 0;
 
 // for (var i = 0; i < 10; i++) {
-//   num += 2;
+//   num = i;
 //   console.log(num);
 // }
+
+var num = -2;
+
+for (var i = 0; i < 10; i++) {
+  num += 2;
+  console.log(num);
+}
 
 // var num = 100;
 
